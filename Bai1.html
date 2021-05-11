@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Điểm Trung Bình Toàn Lý Hóa</title>
+</head>
+<body>
+<script>
+    let inputVatLy;
+    let inputToan;
+    let inputHoa;
+    inputHoa = prompt('nhập vào điểm Hóa : ');
+    inputToan = prompt('nhập vào điểm Toán : ');
+    inputVatLy = prompt('nhập vào điểm Vật Lý');
+    let Ly = parseFloat(inputVatLy);
+    let Hoa = parseFloat(inputHoa);
+    let Toan = parseFloat(inputToan);
+    let TB = (Toan + Ly + Hoa) / 3;
+    let Sum = ( Toan + Ly + Hoa)
+    document.write('điểm trung bình là : ' + TB);
+    document.write('<br/> ');
+    document.write('Tổng điểm 3 môn là  : ' + Sum);
+
+</script>
+</body>
+</html>
